@@ -13,6 +13,7 @@
 		B42F410719EF62E500C28B24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42F410619EF62E500C28B24 /* Images.xcassets */; };
 		B42F410A19EF62E500C28B24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42F410819EF62E500C28B24 /* LaunchScreen.xib */; };
 		B42F411619EF62E500C28B24 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F411519EF62E500C28B24 /* PostcardTests.swift */; };
+		B42F412019EF6D9200C28B24 /* stamp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B42F411F19EF6D9200C28B24 /* stamp.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B42F410F19EF62E500C28B24 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42F411419EF62E500C28B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B42F411519EF62E500C28B24 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		B42F411F19EF6D9200C28B24 /* stamp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		B42F40FD19EF62E500C28B24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B42F411F19EF6D9200C28B24 /* stamp.jpeg */,
 				B42F40FE19EF62E500C28B24 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +198,7 @@
 				B42F410519EF62E500C28B24 /* Main.storyboard in Resources */,
 				B42F410A19EF62E500C28B24 /* LaunchScreen.xib in Resources */,
 				B42F410719EF62E500C28B24 /* Images.xcassets in Resources */,
+				B42F412019EF6D9200C28B24 /* stamp.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
