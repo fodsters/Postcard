@@ -22,6 +22,9 @@
                                     <rect key="frame" x="0.0" y="72" width="372" height="528"/>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="02k-H9-zC5">
+                                <rect key="frame" x="-71" y="-84" width="600" height="600"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -32,6 +35,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8f2-zl-Hti"/>
+                                <exclude reference="02k-H9-zC5"/>
                             </mask>
                         </variation>
                     </view>
@@ -122,6 +126,15 @@
                                     <rect key="frame" x="16" y="72" width="333" height="60"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKd-om-2UZ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="140" width="245" height="42"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -132,6 +145,7 @@
                                 <exclude reference="ud7-vq-ikF"/>
                                 <exclude reference="iqN-2p-dhO"/>
                                 <exclude reference="F1O-q7-2XZ"/>
+                                <exclude reference="SKd-om-2UZ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -144,6 +158,7 @@
                                 <include reference="ud7-vq-ikF"/>
                                 <include reference="iqN-2p-dhO"/>
                                 <include reference="F1O-q7-2XZ"/>
+                                <include reference="SKd-om-2UZ"/>
                             </mask>
                         </variation>
                     </view>
@@ -151,6 +166,7 @@
                         <outlet property="enterMessageTextField" destination="ud7-vq-ikF" id="QBh-w3-4PB"/>
                         <outlet property="enterNameTextField" destination="P5E-Ze-By7" id="ciX-f8-G6f"/>
                         <outlet property="messageLabel" destination="F1O-q7-2XZ" id="87H-31-tBn"/>
+                        <outlet property="nameLabel" destination="SKd-om-2UZ" id="tW8-FM-W5G"/>
                         <outlet property="sendMailButton" destination="iqN-2p-dhO" id="4XK-BF-Vw3"/>
                     </connections>
                 </viewController>
